@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
    
     <link rel="stylesheet" href="style.css">
-    <title>W.</title>
+    <script src="./script.js" defer></script>
+    <title>W. Notícias</title>
 </head>
 <body>
     <header class="header-mobile">
@@ -20,6 +21,10 @@
         </button>
 
         <nav>
+            <button>
+                <img src="./assets/images/icon-menu-close.svg" alt="Ícone de x para fechar o menu">
+            </button>7
+
             <a href="#">Home</a>
             <a href="#">Novo</a>
             <a href="#">Popular</a>
@@ -30,7 +35,10 @@
     
     <main>
         <section class="primeira-secao">
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="Ícone de puzzle colorido">
+            <picture>
+                <source media="(1110px)" srcset="./assets/images/image-web-3-desktop.jpg">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="Ícone de puzzle colorido">
+            </picture>
             <h1>O futuro brilhante da Web 3.0?</h1>
             <p>Nós mergulhamos na próxima evolução da web que afirma devolver o poder das plataformas para as mãos das pessoas. Mas será que ela realmente está cumprindo sua promessa?</p>
             <button>Ler Mais</button>
